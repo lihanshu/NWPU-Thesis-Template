@@ -49,7 +49,7 @@
 
 ## 参考
 
-[Reference_format_setting_source.md]([Reference_format_setting_source.md])给出了在制作模板初期的参考代码。此外刘海洋老师的《LaTeX 入门》对模板开发有启发作用.
+[Reference_format_setting_source.md](Reference_format_setting_source.md)给出了在制作模板初期的参考代码。此外刘海洋老师的《LaTeX 入门》对模板开发有启发作用.
 
 ## 声明
 
