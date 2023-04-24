@@ -49,12 +49,12 @@
 
 ## 参考
 
-[Reference_format_setting_source.md](Reference_format_setting_source.md)给出了在制作模板初期的参考代码。此外刘海洋老师的《LaTeX 入门》对模板开发有启发作用.
+[Reference_format_setting_source.md](Reference_format_setting_source.md) 给出了在制作模板初期的参考代码。此外刘海洋老师的《LaTeX 入门》对模板开发有启发作用。
 
 ## 声明
 
 - 该项目旨在学习交流。并非官方发布。
-- 本模板当前仅支持 2023 年的毕业设计（论文）。如果您需要 2021 年之前的模，请参考 [链接](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis)。
+- 本模板当前仅支持 2023 年的毕业设计（论文）。如果您需要 2021 年之前的模板，请参考[链接](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis)。
 - 研究生论文模板请参考[链接](https://github.com/NWPUMetaphysicsOffice/Yet-Another-LaTeX-Template-for-NPU-Thesis)。
 
 本仓库分享的所有资料署名权由本仓库分享者所有，请尊重作者成果，如若转发请标明出处。如果您喜欢我们的工作，请不要吝惜您的:star:。
