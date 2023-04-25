@@ -12,7 +12,7 @@
 | ![TeXLive2021](https://img.shields.io/badge/TeXLive-2021-3D6117.svg) | :heavy_check_mark: |
 | ![TeXLive2020](https://img.shields.io/badge/TeXLive-2020-3D6117.svg) | :heavy_check_mark: |
 
-|                                       IDE Environment                                        |       Status       |
+|                                       IDE   |       Status       |
 | :------------------------------------------------------------------------------------------: | :----------------: |
 |                ![Overleaf](https://img.shields.io/badge/Overleaf-3D6117.svg)                 | :heavy_check_mark: |
 | ![VScode + LaTeX Workshop ](https://img.shields.io/badge/VScode-LaTeX%20Workshop-3D6117.svg) | :heavy_check_mark: |
@@ -20,7 +20,7 @@
 
 ## 特性
 
-- 基于[官方模板](OfficialTemplate/附件8：本科毕业设计（论文）正文模版.doc).
+- 基于[官方模板](OfficialTemplate/附件8：本科毕业设计（论文）正文模版.doc)。
 - 包含预定义的封面、致谢、摘要、目录和参考文献。
 - 使用 UTF-8 编码和 xeCJK 宏包以更好地支持中文。
 - 完全符合[本科毕业设计指南（2023 版）](https://jiaowu.nwpu.edu.cn/info/1164/8308.htm)的要求。
@@ -41,7 +41,7 @@
 
 ## 联系方式和致谢
 
-- 该模板由[本人](<(https://github.com/lihanshu)>)创建。如果您有任何反馈或建议，请及时和我取得[联系](1078672816@mail.nwpu.edu.cn)。在毕业前，我会尽力维护。
+- 该模板由[本人](<(https://github.com/lihanshu)>)创建。如果您有任何反馈或建议，请及时和我取得[联系](mailto:1078672816@mail.nwpu.edu.cn)。在毕业前，我会尽力维护。
 
 - 感谢 G 同学在完成毕业论文后提供基于 Word 的 PDF 版本，感谢[W 同学](https://github.com/whznpu)对模板的环境测试。
 
@@ -53,7 +53,7 @@
 
 ## 声明
 
-- 该项目旨在学习交流。并非官方发布。
+- 该项目旨在学习交流，并非官方发布。
 - 本模板当前仅支持 2023 年的毕业设计（论文）。如果您需要 2021 年之前的模板，请参考[链接](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis)。
 - 研究生论文模板请参考[链接](https://github.com/NWPUMetaphysicsOffice/Yet-Another-LaTeX-Template-for-NPU-Thesis)。
 

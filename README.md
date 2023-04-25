@@ -12,7 +12,7 @@ This is a LaTeX template for undergraduate students at Northwestern Polytechnica
 | ![TeXLive2021](https://img.shields.io/badge/TeXLive-2021-3D6117.svg) | :heavy_check_mark: |
 | ![TeXLive2020](https://img.shields.io/badge/TeXLive-2020-3D6117.svg) | :heavy_check_mark: |
 
-|                                       IDE Environment                                        |       Status       |
+|                                       IDE        |       Status       |
 | :------------------------------------------------------------------------------------------: | :----------------: |
 |                ![Overleaf](https://img.shields.io/badge/Overleaf-3D6117.svg)                 | :heavy_check_mark: |
 | ![VScode + LaTeX Workshop ](https://img.shields.io/badge/VScode-LaTeX%20Workshop-3D6117.svg) | :heavy_check_mark: |
