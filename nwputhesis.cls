@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2023/4/23 v0.1 Standard LaTeX Template for NWPU thesis]
+[2023/5/15 v0.3 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package
@@ -21,9 +21,11 @@
 % 首行缩进
 \RequirePackage{indentfirst}
 \setlength{\parindent}{2em}
+\RequirePackage{enumitem}
 % 页眉设置
 \RequirePackage{fancyhdr}
 \setlength{\headheight}{27pt}
+\setlength{\headsep}{7pt}
 \renewcommand{\headrulewidth}{1pt} %线宽
 \chead{\includegraphics[scale=0.15]{./picture/nwpuheader.png}}
 \rhead{}
@@ -33,7 +35,7 @@
     \fancyfoot{} % 页脚清空
 }
 \fancypagestyle{noncover}{
-    \fancyfoot[C]{\thepage} % 页脚清空
+    \fancyfoot[C]{\zihao{-5}\thepage} % 页脚清空
 }
 % 字体设置
 \RequirePackage{xeCJK}
@@ -96,14 +98,21 @@
 % 表格和图片标题
 \RequirePackage{caption}
 \RequirePackage{subcaption}
+\RequirePackage{chngcntr} % 清零控制
+\counterwithin{equation}{section}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
 \captionsetup{labelsep=space,justification=centering}
 \DeclareCaptionFont{wuhaohei}{\fontsize{10.5bp}{1.25}\blackti}
 \DeclareCaptionFont{wuhao}{\fontsize{10.5bp}{1.25}}
 \captionsetup[table]{font = {wuhaohei}}
 \captionsetup[figure]{font = {wuhao}}
 \captionsetup[subfigure]{font = {wuhao}}
-\renewcommand{\thefigure}{\thesection{}-\arabic{table}}
+\renewcommand{\thefigure}{\thesection{}-\arabic{figure}}
 \renewcommand {\thetable} {\thesection{}-\arabic{table}}
+% 算法伪代码、
+\RequirePackage{algorithm,algorithmic}
+
 % Cover
 \renewcommand{\maketitle}{\par
     \begingroup
