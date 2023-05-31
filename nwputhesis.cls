@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2023/5/23 v0.4 Standard LaTeX Template for NWPU thesis]
+[2023/5/31 v0.5 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package
@@ -92,6 +92,7 @@
 \RequirePackage{float}
 \RequirePackage{tabularx}
 \RequirePackage{makecell}
+\RequirePackage{tablefootnote} % 表格脚注
 \RequirePackage{multirow} % 跨行
 \RequirePackage{booktabs} % 三线表
 \RequirePackage{longtable}% 跨页表格
@@ -111,8 +112,28 @@
 \captionsetup[subfigure]{font = {wuhao}}
 \renewcommand{\thefigure}{\thesection{}-\arabic{figure}}
 \renewcommand {\thetable} {\thesection{}-\arabic{table}}
-% 算法伪代码、
+% 算法伪代码
 \RequirePackage{algorithm,algorithmic}
+\makeatletter
+\newenvironment{breakablealgorithm}
+{% \begin{breakablealgorithm}
+    \begin{center}
+        \refstepcounter{algorithm}% New algorithm
+        \hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+        \renewcommand{\caption}[2][\relax]{% Make a new \caption
+            {\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+            \ifx\relax##1\relax % #1 is \relax
+                \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+            \else % #1 is not \relax
+                \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+            \fi
+            \kern2pt\hrule\kern2pt
+        }
+        }{% \end{breakablealgorithm}
+        \kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+    \end{center}
+}
+\makeatother
 
 % Cover
 \renewcommand{\maketitle}{\par
@@ -122,7 +143,7 @@
     \@maketitle
     \endgroup
 }
-\def\@maketitle{
+\def\maketitle{
     \pagestyle{cover}
     \begin{figure}[h!]
         \centering
@@ -130,29 +151,30 @@
         %\setlength{\abovecaptionskip}{0.0cm}   
         %\setlength{\belowcaptionskip}{0.0cm} 
         \includegraphics[width=10cm]{picture/nwpulogo.png}
-        \vspace{2.30cm}
+        \vspace{1.30cm}
     \end{figure}
     \begin{center}
-        {\fontsize{42bp}{1.25}\textbf{本科毕业设计（论文）}}
+        {\fontsize{42.1575pt}{1.25}\textbf{本科毕业设计（论文）}}
     \end{center}
 
     \begin{center}
-        \vspace{2.5cm}
+        \vspace{3.5cm}
         \fontsize{20pt}{\baselineskip}\selectfont
-        {\fontsize{20pt}{1.25}\blackti 题目：\underline{ \textcolor{white}{1111}论文题目 \textcolor{white}{1111}}}
+        {\fontsize{16.0600pt}{1.25}\blackti 题目：\underline{ \textcolor{white}{111111}论文题目 \textcolor{white}{111111}}}
         \vspace{1.5cm}
 
-        {\fontsize{20pt}{1.25} 专业名称\underline{ \textcolor{white}{11111111} \textcolor{white}{11111111}}}
+        {\fontsize{14.0525pt}{1.25} 专业名称\underline{ \textcolor{white}{11111} 名\quad 称\textcolor{white}{111111}}}
         \vspace{1.5cm}
 
-        {\fontsize{20pt}{1.25} 学生姓名\underline{ \textcolor{white}{11111111} \textcolor{white}{11111111}}}
+        {\fontsize{14.0525pt}{1.25} 学生姓名\underline{ \textcolor{white}{11111}姓\quad 名\textcolor{white}{111111}}}
         \vspace{1.5cm}
 
-        {\fontsize{20pt}{1.25} 指导教师\underline{ \textcolor{white}{11111111} \textcolor{white}{11111111}}}
+        {\fontsize{14.0525pt}{1.25} 指导教师\underline{ \textcolor{white}{11111}姓\quad 名\textcolor{white}{111111}}}
         \vspace{1.5cm}
 
-        {\fontsize{20pt}{1.25} 毕业时间\underline{ \textcolor{white}{11111111} \textcolor{white}{11111111}}}
-
+        {\fontsize{14.0525pt}{1.25} 毕业时间\underline{ \textcolor{white}{1111}{\large 2023}年{\large 7}月\textcolor{white}{,,111}}}
+        % {\fontsize{20pt}{1.25} 专业名称\underline{ \textcolor{white}{11111111} \textcolor{white}{11111111}}}
+        \vspace{1.5cm}
     \end{center}}
 
 % abstract
