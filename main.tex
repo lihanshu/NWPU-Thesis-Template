@@ -32,7 +32,10 @@ Virtual auditory technology is also called auralization. It is brought forward a
 
 % 目录
 \makecontent
-
+\iffalse
+    \makefigcontent
+    \maketabcontent
+\fi
 % 正文
 \maketext
 
@@ -167,7 +170,7 @@ Virtual auditory technology is also called auralization. It is brought forward a
 \begingroup  % 去掉thebibliography环境自带的“参考文献”标题
 \renewcommand{\section}[2]{}
 \addcontentsline{toc}{section}{参考文献}
-\begin{thebibliography}{1}     % 1 为左对齐 99 为右对齐
+\begin{thebibliography}{99}     % 1 为左对齐 99 为右对齐
     \addtolength{\itemsep}{-0.6em} % 缩小参考文献间的垂直间距
     \begin{spacing}{1.0}           %段落行距设置
 
