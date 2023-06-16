@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2023/6/12 v0.6 Standard LaTeX Template for NWPU thesis]
+[2023/6/16 v0.7 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package
@@ -93,8 +93,8 @@
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
 \RequirePackage{bm}
-\numberwithin{equation}{section}
-\renewcommand\theequation{\arabic{section}-\arabic{equation}}
+%\numberwithin{equation}{section}
+%\renewcommand\theequation{\arabic{section}-\arabic{equation}}
 % 表格和图片
 \RequirePackage{array}
 \RequirePackage{float}
@@ -110,6 +110,8 @@
 \RequirePackage{subcaption}
 \RequirePackage{chngcntr} % 清零控制
 \counterwithin{equation}{section}
+\numberwithin{equation}{section}
+\renewcommand\theequation{\arabic{section}-\arabic{equation}}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
 \captionsetup{labelsep=space,justification=centering}
