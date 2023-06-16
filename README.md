@@ -2,7 +2,10 @@
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
-[![](https://img.shields.io/badge/Version-v0.2.0-{徽标颜色}.svg)]({linkUrl})
+[![](https://img.shields.io/badge/Version-v0.7.0-{徽标颜色}.svg)]({linkUrl})
+
+------
+[**English**](README.md) | [**中文简体**](README.zh-CN.md) 
 
 This is a LaTeX template for undergraduate students at Northwestern Polytechnical University (NPU) who are writing their thesis in 2023. The template is designed to help students quickly complete their thesis without being bothered by formatting issues.
 
