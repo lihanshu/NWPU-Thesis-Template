@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2023/6/16 v0.7 Standard LaTeX Template for NWPU thesis]
+[2023/6/16 v0.7.1 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package
@@ -85,7 +85,7 @@
 \makeatother
 
 % 超链接
-\RequirePackage{hyperref}
+\RequirePackage[bookmarksnumbered, bookmarksopen=true]{hyperref}
 \hypersetup{hidelinks}
 \hypersetup{pdfborder={0 0 0}}
 % 公式
