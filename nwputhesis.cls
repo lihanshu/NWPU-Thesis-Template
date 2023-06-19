@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2023/6/16 v0.7.1 Standard LaTeX Template for NWPU thesis]
+[2023/6/19 v0.7.2 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package
@@ -60,9 +60,10 @@
 }
 % 章节标题定制
 \RequirePackage{titlesec}
-\titleformat{\section}{\centering\fontsize{16.0600pt}{1.25}\blackti}{第\chinese{section}章}{1em}{\blackti}
-\titleformat{\subsection}{\fontsize{14.0525pt}{1.25}\blackti}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\fontsize{12.0450pt}{1.25}\blackti}{\thesubsubsection}{1em}{}
+\titleformat{\section}{\centering\fontsize{16.0600pt}{1.25}\blackti\selectfont}{第\chinese{section}章}{1em}{}
+\titleformat{\subsection}{\fontsize{14.0525pt}{1.25}\blackti\selectfont}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\fontsize{12.0450pt}{1.25}\blackti\selectfont}{\thesubsubsection}{1em}{}
+%\renewcommand{\thesubsubsection}{\fontsize{12.0450pt}{1.25}\selectfont \arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 % 目录定制   
 \RequirePackage{titletoc}
 \ctexset{
@@ -127,21 +128,21 @@
 \makeatletter
 \newenvironment{breakablealgorithm}
 {% \begin{breakablealgorithm}
-		\begin{center}
-			\refstepcounter{algorithm}% New algorithm
-			\hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
-			\renewcommand{\caption}[2][\relax]{% Make a new \caption
-				{\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
-				\ifx\relax##1\relax % #1 is \relax
-				\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
-				\else % #1 is not \relax
-				\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
-				\fi
-				\kern2pt\hrule\kern2pt
-			}
-		}{% \end{breakablealgorithm}
-		\kern2pt\hrule\relax% \@fs@post for \@fs@ruled
-	\end{center}
+    \begin{center}
+        \refstepcounter{algorithm}% New algorithm
+        \hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+        \renewcommand{\caption}[2][\relax]{% Make a new \caption
+            {\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+            \ifx\relax##1\relax % #1 is \relax
+                \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+            \else % #1 is not \relax
+                \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+            \fi
+            \kern2pt\hrule\kern2pt
+        }
+        }{% \end{breakablealgorithm}
+        \kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+    \end{center}
 }
 \makeatother
 
@@ -231,11 +232,11 @@
     \textcolor{white}{11}
 
     \textcolor{white}{11}
-\listoffigures}
+    \listoffigures}
 \newcommand{\maketabcontent}{    \newpage
     \textcolor{white}{11}
 
     \textcolor{white}{11}
-\listoftables}
+    \listoftables}
 \titlecontents{figure}[20pt]{}{\figurename~\thecontentslabel\quad}{}{~\titlerule*[0.6pc]{$\cdot$}~\contentspage}
 \titlecontents{table}[20pt]{}{\tablename~\thecontentslabel\quad}{}{~\titlerule*[0.6pc]{$\cdot$}~\contentspage}
