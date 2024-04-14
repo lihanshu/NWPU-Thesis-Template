@@ -27,6 +27,7 @@ This is a LaTeX template for undergraduate students at Northwestern Polytechnica
 - Included pre-defined cover pages, acknowledgment, abstract, table of contents, and bibliography.
 - Used UTF-8 encoding and the xeCJK package for better Chinese language support.
 - Configured to conform to the requirements of [NPU's Undergraduate Thesis Guidelines (2023 edition)](https://jiaowu.nwpu.edu.cn/info/1164/8308.htm).
+- Added support for BibTex
 
 ## Usage
 

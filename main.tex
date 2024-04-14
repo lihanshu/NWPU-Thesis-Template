@@ -1,5 +1,6 @@
 % !TeX program = xelatex
 \documentclass{nwputhesis}
+\usepackage{gbt7714}
 \begin{document}
 
 % 生成封面, 使用\maketitle 
@@ -43,8 +44,7 @@ Virtual auditory technology is also called auralization. It is brought forward a
 \subsection{可听化技术概述}
 \subsubsection{可听化的概念}
 
-可听化（Auralization）\upcite{bib:one}是近年来随着声学仿真技术的长足发展而出现的新概念，它的具体含义是通过对一包含单个（或者多个）声源的声场进行物理或数学建模，以达到声音绘制（Audio rendering）或称声学仿真（Acoustical simulation）的目的。这样，人们可以获得该声场中任意位置的双耳听觉感受。换句话说，可听化技术在客观上主要是模拟特定声场（包括声源、声传播环境以及聆听者三要素）中声音传播的物理过程，从而使其中的聆听者作为一个主体能够获得对整个场景声学特性的主观感知\upcite{bib:two,bib:three}。
-
+可听化（Auralization）是近年来随着声学仿真技术的长足发展而出现的新概念\cite{Xu_2023_ICCV} \cite{li2021learning}，它的具体含义是通过对一包含单个（或者多个）声源的声场进行物理或数学建模，以达到声音绘制（Audio rendering）或称声学仿真（Acoustical simulation）的目的。这样，人们可以获得该声场中任意位置的双耳听觉感受。换句话说，可听化技术在客观上主要是模拟特定声场（包括声源、声传播环境以及聆听者三要素）中声音传播的物理过程，从而使其中的聆听者作为一个主体能够获得对整个场景声学特性的主观感知
 \makespace
 \section{信号模型}
 \subsection{公式}
@@ -173,29 +173,10 @@ Virtual auditory technology is also called auralization. It is brought forward a
 \begingroup  % 去掉thebibliography环境自带的“参考文献”标题
 \renewcommand{\section}[2]{}
 \addcontentsline{toc}{section}{参考文献}
-\begin{thebibliography}{99}     % 1 为左对齐 99 为右对齐
-    \addtolength{\itemsep}{-0.6em} % 缩小参考文献间的垂直间距
-    \begin{spacing}{1.0}           %段落行距设置
-
-        \bibitem{bib:one}作者．题名[D]．保存城市名：保存单位(写到二级单位)，出版年．
-
-        \bibitem{bib:two}作者．题名[J]．刊名，出版年，卷(期)：起止页码．.
-
-        \bibitem{bib:three}作者．题名[A]．见[In]；编者．论文集名[C]．出版地：出版者，出版年．起止页码．
-        \iffalse
-            ① 期刊    作者．题名[J]．刊名，出版年，卷(期)：起止页码．
-            ② 论文集    作者．题名[A]．见[In]；编者．论文集名[C]．出版地：出版者，出版年．起止页码．
-            ③ 专著   作者．书名[M]．版本(第1版免著)．出版地：出版者，出版年．起止页码．
-            ④ 学位论文    作者．题名[D]．保存城市名：保存单位(写到二级单位)，出版年．
-            ⑤ 标准   起草责任者．标准代号标准顺序号-发布年，标准名称[S]．出版地：出版者，出版年．
-            ⑥ 科技报告     作者．题名[R]．报告题名及编号，出版地：出版者，出版年．(起止页码)．
-            ⑦ 专利   专利所有者．题名  [P]．专利国别：专利号，公告日期．
-            ⑧ 电子文献   作者．题名．发表或更新日期／引用日期．电子文献地址．
-            文献作者3名以内全部列出，4名以上只列出前3名，后加“，等”；
-            外文作者姓在前，首字为大写，名缩写为首字母，与姓之间空一字符，不加缩写点。
-        \fi
-    \end{spacing}
-\end{thebibliography}
+% npu专用
+\bibliographystyle{gbt7714-numerical}
+% 参考文献位置
+\bibliography{reference/reference}
 
 
 % 致谢
