@@ -1,4 +1,4 @@
-# NPU Undergraduate Thesis LaTeX Template (2023)
+# NPU Undergraduate Thesis LaTeX Template (2024)
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
@@ -26,8 +26,9 @@ This is a LaTeX template for undergraduate students at Northwestern Polytechnica
 - Based on the [official NPU thesis format](OfficialTemplate/附件8：本科毕业设计（论文）正文模版.doc).
 - Included pre-defined cover pages, acknowledgment, abstract, table of contents, and bibliography.
 - Used UTF-8 encoding and the xeCJK package for better Chinese language support.
-- Configured to conform to the requirements of [NPU's Undergraduate Thesis Guidelines (2023 edition)](https://jiaowu.nwpu.edu.cn/info/1164/8308.htm).
-- Added support for BibTex
+- Configured to conform to the requirements of [NPU's Undergraduate Thesis Guidelines (2024 edition)](https://jiaowu.nwpu.edu.cn/info/1164/12708.htm).
+- BibTex support
+- [Overleaf template website](https://www.overleaf.com/latex/templates/nwpu-thesis-template-2024/mbhxtpypgcqc) 
 
 ## Usage
 
