@@ -1,4 +1,4 @@
-# 西北工业大学 2023 本科毕业设计 LaTeX 模板
+# 西北工业大学 2024 本科毕业设计 LaTeX 模板
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
@@ -23,7 +23,9 @@
 - 基于[官方模板](OfficialTemplate/附件8：本科毕业设计（论文）正文模版.doc)。
 - 包含预定义的封面、致谢、摘要、目录和参考文献。
 - 使用 UTF-8 编码和 xeCJK 宏包以更好地支持中文。
-- 完全符合[本科毕业设计指南（2023 版）](https://jiaowu.nwpu.edu.cn/info/1164/8308.htm)的要求。
+- 完全符合[本科毕业设计指南（2024 版）](https://jiaowu.nwpu.edu.cn/info/1164/12708.htm)的要求。
+- 对 BibTex 引用方式的支持
+- [Overleaf 模板网页](https://www.overleaf.com/latex/templates/nwpu-thesis-template-2024/mbhxtpypgcqc)
 
 ## 使用方法
 
@@ -41,7 +43,7 @@
 
 ## 联系方式和致谢
 
-- 该模板由[本人](<(https://github.com/lihanshu)>)创建。如果您有任何反馈或建议，请及时和我取得[联系](mailto:1078672816@mail.nwpu.edu.cn)。在毕业前，我会尽力维护。
+- 该模板由[Hanshu Li](<(https://github.com/lihanshu)>)创建。如果您有任何反馈或建议，请及时和我取得[联系](mailto:1078672816@mail.nwpu.edu.cn)。在毕业前，我会尽力维护。
 
 - 感谢 G 同学在完成毕业论文后提供基于 Word 的 PDF 版本，感谢[W 同学](https://github.com/whznpu)对模板的环境测试。
 
