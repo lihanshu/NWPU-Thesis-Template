@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2023/6/19 v0.7.2 Standard LaTeX Template for NWPU thesis]
+[2024/4/18 v0.8.0 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package

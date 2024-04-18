@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
 [![](https://img.shields.io/badge/Version-v0.2.0-{徽标颜色}.svg)]({linkUrl})
 
-该 LaTeX 模板适用于西北工业大学 2023 年本科毕业设计，旨在帮助学生快速完成毕业论文，不受格式问题的困扰。
+该 LaTeX 模板适用于西北工业大学 2023以及2024 年本科毕业设计，旨在帮助学生快速完成毕业论文，不受格式问题的困扰。
 
 |                         TeXLive Environment                          |       Status       |
 | :------------------------------------------------------------------: | :----------------: |
@@ -43,9 +43,9 @@
 
 ## 联系方式和致谢
 
-- 该模板由[Hanshu Li](<(https://github.com/lihanshu)>)创建。如果您有任何反馈或建议，请及时和我取得[联系](mailto:1078672816@mail.nwpu.edu.cn)。在毕业前，我会尽力维护。
+- 该模板由[lihanshu](<(https://github.com/lihanshu)>)创建,[YushunXiang](https://github.com/YushunXiang)补充。如果您有任何反馈或建议，请及时通过邮件[联系](mailto:lihanshu29@gmail.com)，我会尽力维护。
 
-- 感谢 G 同学在完成毕业论文后提供基于 Word 的 PDF 版本，感谢[W 同学](https://github.com/whznpu)对模板的环境测试。
+- 感谢 G 同学在完成毕业论文后提供基于 Word 的 PDF 版本，感谢[W 同学](https://github.com/whzruc)等人对模板的环境测试。
 
 - 欢迎您对该模板的贡献。如果存在 bug 或有改进的建议，请在 issue 提出或提交合并请求。
 
@@ -56,7 +56,7 @@
 ## 声明
 
 - 该项目旨在学习交流，并非官方发布。
-- 本模板当前仅支持 2023 年的毕业设计（论文）。如果您需要 2021 年之前的模板，请参考[链接](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis)。
+- 本模板当前仅支持 2023 年以及之后的毕业设计（论文）。如果您需要 2021 年之前的模板，请参考[链接](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis)。
 - 研究生论文模板请参考[链接](https://github.com/NWPUMetaphysicsOffice/Yet-Another-LaTeX-Template-for-NPU-Thesis)。
 
 本仓库分享的所有资料署名权由本仓库分享者所有，请尊重作者成果，如若转发请标明出处。如果您喜欢我们的工作，请不要吝惜您的:star:。

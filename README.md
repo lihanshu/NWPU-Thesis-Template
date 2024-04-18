@@ -7,7 +7,7 @@
 ------
 [**English**](README.md) | [**中文简体**](README.zh-CN.md) 
 
-This is a LaTeX template for undergraduate students at Northwestern Polytechnical University (NPU) who are writing their thesis in 2023. The template is designed to help students quickly complete their thesis without being bothered by formatting issues.
+This is a LaTeX template for undergraduate students at Northwestern Polytechnical University (NPU) who are writing their thesis in 2023 and 2024. The template is designed to help students quickly complete their thesis without being bothered by formatting issues.
 
 |                         TeXLive Environment                          |       Status       |
 | :------------------------------------------------------------------: | :----------------: |
@@ -44,7 +44,7 @@ There are three ways to configure the supported environments: uploading the temp
 
 ## Acknowledgments
 
-- This template was created by [me](https://github.com/lihanshu), a student at Northwestern Polytechnical University. If you have any questions or comments about the template, please feel free to contact me via email (1078672816@mail.nwpu.edu.cn) if you have any issues or feedback. I will do my best to maintain this template until graduation.
+- This template was created by [Chao Zhang](https://github.com/lihanshu) and [YushunXiang](https://github.com/YushunXiang), students at Northwestern Polytechnical University. If you have any questions or comments about the template, please feel free to contact me via email (lihanshu29@gmail.com) if you have any issues or feedback. I will do my best to maintain this template until graduation.
 - Special thanks to Classmate Guan for their assistance with the PDF version(based Word) and [Classmate Wang](https://github.com/whznpu) for testing the template.
 - Contributions to this template are welcome! If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
 
@@ -56,7 +56,7 @@ There are three ways to configure the supported environments: uploading the temp
 
 - This project is intended for learning and exchange  and please note that it is not an official release.
 
-- The template currently only supports the year 2023. If you need a template for a year prior to 2021, please refer to the [link](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis).
+- The template currently only supports the years after 2023. If you need a template for a year prior to 2021, please refer to the [link](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis).
 
 - For master's and doctoral thesis templates, please refer to [Yet-Another-LaTeX-Template-for-NPU-Thesis](https://github.com/NWPUMetaphysicsOffice/Yet-Another-LaTeX-Template-for-NPU-Thesis).
 
