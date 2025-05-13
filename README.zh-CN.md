@@ -1,10 +1,10 @@
-# 西北工业大学 2024 本科毕业设计 LaTeX 模板
+# 西北工业大学 2025 本科毕业设计 LaTeX 模板
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
-[![](https://img.shields.io/badge/Version-v0.2.0-{徽标颜色}.svg)]({linkUrl})
+[![](https://img.shields.io/badge/Version-v0.8.0-{徽标颜色}.svg)]({linkUrl})
 
-该 LaTeX 模板适用于西北工业大学 2023以及2024 年本科毕业设计，旨在帮助学生快速完成毕业论文，不受格式问题的困扰。
+该 LaTeX 模板适用于西北工业大学 2023至[2025](https://github.com/lihanshu/NWPU-Thesis-Template/issues/6) 年本科毕业设计，旨在帮助学生快速完成毕业论文，不受格式问题的困扰。之后若学校的年份相关模板有改动，请自行比对。
 
 |                         TeXLive Environment                          |       Status       |
 | :------------------------------------------------------------------: | :----------------: |

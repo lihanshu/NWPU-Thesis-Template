@@ -1,13 +1,13 @@
-# NPU Undergraduate Thesis LaTeX Template (2024)
+# NPU Undergraduate Thesis LaTeX Template (2025)
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
-[![](https://img.shields.io/badge/Version-v0.7.0-{徽标颜色}.svg)]({linkUrl})
+[![](https://img.shields.io/badge/Version-v0.8.0-{徽标颜色}.svg)]({linkUrl})
 
 ------
 [**English**](README.md) | [**中文简体**](README.zh-CN.md) 
 
-This is a LaTeX template for undergraduate students at Northwestern Polytechnical University (NPU) who are writing their thesis in 2023 and 2024. The template is designed to help students quickly complete their thesis without being bothered by formatting issues.
+This is a LaTeX template for undergraduate students at Northwestern Polytechnical University (NPU) who are writing their thesis in 2023, 2024, and [2025](https://github.com/lihanshu/NWPU-Thesis-Template/issues/6). The template is designed to help students quickly complete their thesis without being bothered by formatting issues. In the future, if the university's template for any year is revised, please compare and check the changes on your own.
 
 |                         TeXLive Environment                          |       Status       |
 | :------------------------------------------------------------------: | :----------------: |
@@ -45,7 +45,7 @@ There are three ways to configure the supported environments: uploading the temp
 ## Acknowledgments
 
 - This template was created by [Chao Zhang](https://github.com/lihanshu) and [YushunXiang](https://github.com/YushunXiang), students at Northwestern Polytechnical University. If you have any questions or comments about the template, please feel free to contact me via email (lihanshu29@gmail.com) if you have any issues or feedback. I will do my best to maintain this template until graduation.
-- Special thanks to Classmate Guan for their assistance with the PDF version(based Word) and [Classmate Wang](https://github.com/whznpu) for testing the template.
+- Special thanks to Classmate Guan for their assistance with the PDF version(based Word) and [Classmate Wang](https://github.com/whzruc) for testing the template.
 - Contributions to this template are welcome! If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
 
 ## Reference
