@@ -1,4 +1,5 @@
 # NPU Undergraduate Thesis LaTeX Template (2025)
+# 西北工业大学 2025 本科毕业设计 LaTeX 模板 (中文)
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
@@ -9,11 +10,14 @@
 
 This is a LaTeX template for undergraduate students at Northwestern Polytechnical University (NPU) who are writing their thesis in 2023, 2024, and [2025](https://github.com/lihanshu/NWPU-Thesis-Template/issues/6). The template is designed to help students quickly complete their thesis without being bothered by formatting issues. In the future, if the university's template for any year is revised, please compare and check the changes on your own.
 
+Presently, this template is available exclusively in Chinese. 
+
 |                         TeXLive Environment                          |       Status       |
 | :------------------------------------------------------------------: | :----------------: |
+| ![TeXLive2024](https://img.shields.io/badge/TeXLive-2024-3D6117.svg) | :heavy_check_mark: |
+| ![TeXLive2023](https://img.shields.io/badge/TeXLive-2023-3D6117.svg) | :heavy_check_mark: |
 | ![TeXLive2022](https://img.shields.io/badge/TeXLive-2022-3D6117.svg) | :heavy_check_mark: |
 | ![TeXLive2021](https://img.shields.io/badge/TeXLive-2021-3D6117.svg) | :heavy_check_mark: |
-| ![TeXLive2020](https://img.shields.io/badge/TeXLive-2020-3D6117.svg) | :heavy_check_mark: |
 
 |                                       IDE        |       Status       |
 | :------------------------------------------------------------------------------------------: | :----------------: |
@@ -38,7 +42,7 @@ There are three ways to obtain the template: accessing the latest [release versi
 
 - Supported Environments and Configuration Methods
 
-There are three ways to configure the supported environments: uploading the template to [Overleaf platform](https://cn.overleaf.com/), downloading [TeXLive](https://zhuanlan.zhihu.com/p/41855480) (version $\geqslant$ 2020) locally, or configuring the [VSCode + LaTeX](https://zhuanlan.zhihu.com/p/38178015) Workshop environment after downloading TeXLive.
+There are many ways to configure the supported environments: uploading the template to [Overleaf platform](https://cn.overleaf.com/), downloading [TeXLive](https://zhuanlan.zhihu.com/p/41855480) (version $\geqslant$ 2020) locally, or configuring the [VSCode + LaTeX](https://zhuanlan.zhihu.com/p/38178015) Workshop environment after downloading TeXLive.
 
 - Compile the document using **XeLaTeX**.
 
@@ -54,7 +58,7 @@ There are three ways to configure the supported environments: uploading the temp
 
 ## Disclaimer
 
-- This project is intended for learning and exchange  and please note that it is not an official release.
+- This project is intended for learning and exchange  and please note that it is not an official release. Similar maintained templates include [Undergraduate:LaTeX-NewTemplate-For-NPU-undergraduate-Thesis](https://github.com/jialinlvcn/LaTeX-NewTemplate-For-NPU-undergraduate-Thesis) and [Graduate: :NPU-Thesis-LaTeX-Template](https://github.com/WanshunSu/NPU-Thesis-LaTeX-Template)
 
 - The template currently only supports the years after 2023. If you need a template for a year prior to 2021, please refer to the [link](https://github.com/polossk/LaTeX-Template-For-NPU-Thesis).
 
