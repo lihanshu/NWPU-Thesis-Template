@@ -1,5 +1,4 @@
-# NPU Undergraduate Thesis LaTeX Template (2025)
-# 西北工业大学 2025 本科毕业设计 LaTeX 模板 (中文)
+# NPU Undergraduate Thesis LaTeX Template (2025) ( 西北工业大学 2025 本科毕业设计 LaTeX 模板 (中文) )
 
 ![TeX-Document](https://img.shields.io/badge/TeX-Document-3D6117.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
