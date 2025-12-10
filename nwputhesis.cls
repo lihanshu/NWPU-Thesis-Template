@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{nwputhesis}
-[2024/4/18 v0.8.0 Standard LaTeX Template for NWPU thesis]
+[2025/12/20 v0.9.0 Standard LaTeX Template for NWPU thesis]
 % Loading Class
 \LoadClass[12pt,fontset=none]{ctexart}
 % Loading Package
@@ -61,8 +61,8 @@
 % 章节标题定制
 \RequirePackage{titlesec}
 \titleformat{\section}{\centering\fontsize{16.0600pt}{1.25}\blackti\selectfont}{第\chinese{section}章}{1em}{}
-\titleformat{\subsection}{\fontsize{14.0525pt}{1.25}\blackti\selectfont}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\fontsize{12.0450pt}{1.25}\blackti\selectfont}{\thesubsubsection}{1em}{}
+\titleformat{\subsection}{\fontsize{14.0525pt}{1.25}\blackti\selectfont}{\thesubsection}{0.25em}{}
+\titleformat{\subsubsection}{\fontsize{12.0450pt}{1.25}\blackti\selectfont}{\thesubsubsection}{0.25em}{}
 %\renewcommand{\thesubsubsection}{\fontsize{12.0450pt}{1.25}\selectfont \arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 % 目录定制   
 \RequirePackage{titletoc}
@@ -72,11 +72,11 @@
      },
 }
 \titlecontents{section}[0pt]{\vspace{2mm}\bf}
-{\thecontentslabel\hskip.5em}{}{~\titlerule*[0.6pc]{$\cdot$}~\contentspage}
+{\thecontentslabel\hskip.5em}{}{~\titlerule*[0.3pc]{$\cdot$}~\contentspage}
 \titlecontents{subsection}[20pt]{}
-{\thecontentslabel\hskip.5em}{}{~\titlerule*[0.6pc]{$\cdot$}~\contentspage}
+{\thecontentslabel\hskip.5em}{}{~\titlerule*[0.3pc]{$\cdot$}~\contentspage}
 \titlecontents{subsubsection}[30pt]{}
-{\thecontentslabel\hskip.5em}{}{~\titlerule*[0.6pc]{$\cdot$}~\contentspage}
+{\thecontentslabel\hskip.5em}{}{~\titlerule*[0.3pc]{$\cdot$}~\contentspage}
 % 参考文献
 \newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
 % \RequirePackage{balance} % 参考文献对齐

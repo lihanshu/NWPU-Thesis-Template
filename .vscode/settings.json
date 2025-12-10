@@ -1,0 +1,20 @@
+{
+    "latex-workshop.latex.tools": [
+  {
+    "name": "xelatex",
+    "command": "xelatex",
+    "args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
+  },
+  {
+    "name": "bibtex",
+    "command": "bibtex",
+    "args": ["%DOCFILE%"]
+  }
+],
+"latex-workshop.latex.recipes": [
+  {
+    "name": "xe->bib->xe->xe",
+    "tools": ["xelatex", "bibtex", "xelatex", "xelatex"]
+  }
+]
+}
