@@ -12,9 +12,21 @@
 \fi
 % 空格&空行
 \RequirePackage{color}
+% zref-abspage 提供 \zref@abspage：全局绝对页计数（含封面，从不重置）
+% 内部用 \AtBeginShipout + \global\advance，每次 shipout 后自动 +1
+\RequirePackage{zref-abspage}
 \newcommand{\myspace}[1]{\par\vspace{#1\baselineskip}}
+% 跳转到下一个奇数 PDF 页（封面 = 第 1 页）
+% clearpage 后 \zref@abspage = 刚输出的页 K，下一页 = K+1
+% 若 K 为奇数则 K+1 为偶数，需再插一空白页使下一页变为 K+2（奇数）
+\newcommand{\cleartooddpage}{%
+    \clearpage
+    \ifodd\value{abspage}%
+        \null\thispagestyle{empty}\clearpage
+    \fi
+}
 \newcommand{\makespace}{
-    \newpage
+    \cleartooddpage
     \textcolor{white}{11}\\
     \textcolor{white}{11}
 }
@@ -183,13 +195,14 @@
         {\fontsize{14.0525pt}{1.25} 指导教师\underline{ \textcolor{white}{11111}姓\quad 名\textcolor{white}{111111}}}
         \vspace{1.5cm}
 
-        {\fontsize{14.0525pt}{1.25} 毕业时间\underline{ \textcolor{white}{1111}{\large 2023}年{\large 7}月\textcolor{white}{,,111}}}
+        {\fontsize{14.0525pt}{1.25} 毕业时间\underline{ \textcolor{white}{1111}{\large 2026}年{\large 7}月\textcolor{white}{,,111}}}
         % {\fontsize{20pt}{1.25} 专业名称\underline{ \textcolor{white}{11111111} \textcolor{white}{11111111}}}
         \vspace{1.5cm}
     \end{center}}
 
 % abstract
 \newcommand{\makeabstract}{
+    \cleartooddpage
     \pagestyle{noncover}
     \setcounter{page}{1}
     \pagenumbering{Roman}
@@ -202,7 +215,7 @@
 }
 
 \newcommand{\makeEnabstract}{
-    \newpage
+    \cleartooddpage
     \textcolor{white}{11}\\
     \textcolor{white}{11}
     \begin{center}
@@ -213,14 +226,14 @@
 
 % content
 \newcommand{\makecontent}{
-    \newpage
+    \cleartooddpage
     \textcolor{white}{11}\\
     \textcolor{white}{11}
     \tableofcontents}
 
 % text
 \newcommand{\maketext}{
-    \newpage
+    \cleartooddpage
     \setcounter{page}{1}
     \pagenumbering{arabic}
     \textcolor{white}{1}}
